@@ -1,0 +1,4 @@
+package powie.helensim.mixin;
+
+public class SoundBlocker {
+}

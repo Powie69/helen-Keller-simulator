@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "helen-keller-simulator",
+	"version": "${version}",
+	"name": "helen Keller simulator",
+	"description": "This mod simulates the life of Helen Keller",
+	"authors": [
+		"Powie69"
+	],
+	"contact": {
+		"homepage": "https://github.com/Powie69/helen-Keller-simulator",
+		"sources": "https://github.com/Powie69/helen-Keller-simulator",
+		"issues": "https://github.com/Powie69/helen-Keller-simulator/issues"
+	},
+	"icon": "assets/helen-keller-simulator/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"powie.helensim.HelenKellerSimulator"
+		]
+	},
+	"mixins": [
+		"helen-keller-simulator.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.21.4",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
